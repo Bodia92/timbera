@@ -1,0 +1,573 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Catalog Page</title>
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1751616189934"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1751616189934">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<a href="/timbera" class="header__logo">
+						<img src="./assets/img/logo.svg" alt="logo">
+					</a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link arrow-down">Каталог</a>
+									<ul class="submenu">
+										<li class="submenu__item">
+											<a href="product.html" class="submenu__link">Категорія 1</a>
+										</li>
+										<li class="submenu__item">
+											<a href="#" class="submenu__link">Категорія 2</a>
+										</li>
+										<li class="submenu__item">
+											<a href="#" class="submenu__link">Категорія 3</a>
+										</li>
+										<li class="submenu__item">
+											<a href="#" class="submenu__link">Категорія 4</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Про нас</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Корисні матеріали</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Контакти</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__phones phones">
+						<a href="tel:+380686688011" class="phones__main arrow-down">
+							<span class="icon --icon-phone"></span>
+							+380 (68) 668 80 11
+						</a>
+						<div class="phones__dropdown">
+							<a class="phone" href="tel:+380686688011">+380 (68) 668 80 11</a>
+							<a class="phone" href="tel:+380686688012">+380 (68) 668 80 12</a>
+						</div>
+					</div>
+					<div class="header__search search">
+						<button class="search__icon --icon-search" type="button"></button>
+						<div class="search__modal">
+							<form class="search__form" id="search-form" action="#">
+								<input class="search__input js-search-input" type="text" name="term" autocomplete="off" placeholder="Пошук...">
+								<button class="search__btn search__btn--icon-search" type="submit"></button>
+							</form>
+							<div class="search__content">
+								<div class="search__title">Почніть вводити пошуковий запит</div>
+								<div class="search__text">Мінімальна довжина пошукового запиту 3 символи</div>
+								<div class="search__list">
+									<div class="search__item">123</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header__lang lang">
+						<button class="lang__btn arrow-down" type="button">UA</button>
+						<nav class="lang__nav">
+							<a class="lang__link" href="#">EN</a>
+							<a class="lang__link" href="#">RU</a>
+						</nav>
+					</div>
+					<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+						<span></span>
+					</button>
+				</div>
+			</header>
+			<main class="page page--catalog">
+				<div class="breadcrumbs">
+					<div class="breadcrumbs__container">
+						<div class="breadcrumbs__nav">
+							<a class="breadcrumbs__link breadcrumbs__link--main" href="/">Timbera</a>
+							<div class="breadcrumbs__link breadcrumbs__link--last">Всі пропозиції</div>
+						</div>
+					</div>
+				</div>
+				<!-- section catalog-banner -->
+				<section class="catalog-banner">
+					<div class="catalog-banner__container">
+						<div class="catalog-banner__wrap">
+							<div class="catalog-banner__img">
+								<img src="./assets/img/catalog-banner.jpg" alt="catalog-banner">
+							</div>
+							<h1 class="catalog-banner__title section-title">Каталог продукції</h1>
+							<div class="catalog-banner__text">
+								<p>
+									З продуктами від Timbera Group ваш проєкт стане уособленням творчості та надійності.
+						Довіртеся
+						професіоналам і
+						насолоджуйтеся результатом.
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- section catalog -->
+				<section class="catalog">
+					<div class="catalog__container">
+						<div data-fls-tabs="" data-fls-tabs-animate="300" class="catalog__tabs">
+							<nav data-fls-tabs-titles="" class="catalog__navigation">
+								<button type="button" class="catalog__title --tab-active">Фасадні системи</button>
+								<button type="button" class="catalog__title">Терасні покриття</button>
+								<button type="button" class="catalog__title">Підшиви дахів</button>
+								<button type="button" class="catalog__title">Системи монтажу</button>
+							</nav>
+							<div data-fls-tabs-body="" class="catalog__content">
+								<div class="catalog__body">
+									<div class="catalog-grid">
+										<div class="product-cart">
+											<a href="#" class="product-cart__img">
+												<img src="./assets/img/product01.png" alt="product">
+											</a>
+											<div class="product-cart__type">Термоясен</div>
+											<a class="product-cart__title" href="#">Рейка декоративна 40х40</a>
+											<div class="product-cart__size">Розмір від 20-40х40 до150х800-3000</div>
+										</div>
+										<div class="product-cart">
+											<a href="#" class="product-cart__img">
+												<img src="./assets/img/product02.png" alt="product">
+											</a>
+											<div class="product-cart__type">Термососна</div>
+											<a class="product-cart__title" href="#">Планкен косий</a>
+											<div class="product-cart__size">Розмір від 20-40х40 до150х800-3000</div>
+										</div>
+										<div class="product-cart">
+											<a href="#" class="product-cart__img">
+												<img src="./assets/img/product03.png" alt="product">
+											</a>
+											<div class="product-cart__type">Термососна</div>
+											<a class="product-cart__title" href="#">Гладка з пазами</a>
+											<div class="product-cart__size">Розмір від 20-40х40 до150х800-3000</div>
+										</div>
+										<div class="product-cart">
+											<a href="#" class="product-cart__img">
+												<img src="./assets/img/product03.png" alt="product">
+											</a>
+											<div class="product-cart__type">Термоясен</div>
+											<a class="product-cart__title" href="#">Євровагонка</a>
+											<div class="product-cart__size">Розмір від 20-40х40 до150х800-3000</div>
+										</div>
+										<div class="product-cart">
+											<a href="#" class="product-cart__img">
+												<img src="./assets/img/product01.png" alt="product">
+											</a>
+											<div class="product-cart__type">Термоясен</div>
+											<a class="product-cart__title" href="#">Рейка декоративна 40х40</a>
+											<div class="product-cart__size">Розмір від 20-40х40 до150х800-3000</div>
+										</div>
+									</div>
+									<div class="pagination">
+										<ul>
+											<li class="prev" aria-label="« Назад">
+												<a class="--icon-arrow-prev" href="#"></a>
+											</li>
+											<li class="active">
+												<a href="#">1</a>
+											</li>
+											<li>
+												<a href="#">2</a>
+											</li>
+											<li>
+												<a href="#">3</a>
+											</li>
+											<li class="gap">
+												<span>...</span>
+											</li>
+											<li class="last">
+												<a href="#">7</a>
+											</li>
+											<li class="next" aria-label="Вперед »">
+												<a class="--icon-arrow-next" href="#"></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="catalog__body">
+									<div class="catalog-grid">
+										<div class="product-cart">
+											<a href="#" class="product-cart__img">
+												<img src="./assets/img/product03.png" alt="product">
+											</a>
+											<div class="product-cart__type">Термоясен</div>
+											<a class="product-cart__title" href="#">Євровагонка</a>
+											<div class="product-cart__size">Розмір від 20-40х40 до150х800-3000</div>
+										</div>
+										<div class="product-cart">
+											<a href="#" class="product-cart__img">
+												<img src="./assets/img/product01.png" alt="product">
+											</a>
+											<div class="product-cart__type">Термоясен</div>
+											<a class="product-cart__title" href="#">Рейка декоративна 40х40</a>
+											<div class="product-cart__size">Розмір від 20-40х40 до150х800-3000</div>
+										</div>
+									</div>
+									<div class="pagination">
+										<ul>
+											<li class="prev" aria-label="« Назад">
+												<a class="--icon-arrow-prev" href="#"></a>
+											</li>
+											<li class="active">
+												<a href="#">1</a>
+											</li>
+											<li>
+												<a href="#">2</a>
+											</li>
+											<li>
+												<a href="#">3</a>
+											</li>
+											<li class="gap">
+												<span>...</span>
+											</li>
+											<li class="last">
+												<a href="#">7</a>
+											</li>
+											<li class="next" aria-label="Вперед »">
+												<a class="--icon-arrow-next" href="#"></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="catalog__body">
+									<div class="catalog-grid">
+										<div class="product-cart">
+											<a href="#" class="product-cart__img">
+												<img src="./assets/img/product01.png" alt="product">
+											</a>
+											<div class="product-cart__type">Термоясен</div>
+											<a class="product-cart__title" href="#">Рейка декоративна 40х40</a>
+											<div class="product-cart__size">Розмір від 20-40х40 до150х800-3000</div>
+										</div>
+										<div class="product-cart">
+											<a href="#" class="product-cart__img">
+												<img src="./assets/img/product02.png" alt="product">
+											</a>
+											<div class="product-cart__type">Термососна</div>
+											<a class="product-cart__title" href="#">Планкен косий</a>
+											<div class="product-cart__size">Розмір від 20-40х40 до150х800-3000</div>
+										</div>
+									</div>
+									<div class="pagination">
+										<ul>
+											<li class="prev" aria-label="« Назад">
+												<a class="--icon-arrow-prev" href="#"></a>
+											</li>
+											<li class="active">
+												<a href="#">1</a>
+											</li>
+											<li>
+												<a href="#">2</a>
+											</li>
+											<li>
+												<a href="#">3</a>
+											</li>
+											<li class="gap">
+												<span>...</span>
+											</li>
+											<li class="last">
+												<a href="#">7</a>
+											</li>
+											<li class="next" aria-label="Вперед »">
+												<a class="--icon-arrow-next" href="#"></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+								<div class="catalog__body">
+									<div class="catalog-grid">
+										<div class="product-cart">
+											<a href="#" class="product-cart__img">
+												<img src="./assets/img/product03.png" alt="product">
+											</a>
+											<div class="product-cart__type">Термососна</div>
+											<a class="product-cart__title" href="#">Гладка з пазами</a>
+											<div class="product-cart__size">Розмір від 20-40х40 до150х800-3000</div>
+										</div>
+										<div class="product-cart">
+											<a href="#" class="product-cart__img">
+												<img src="./assets/img/product03.png" alt="product">
+											</a>
+											<div class="product-cart__type">Термоясен</div>
+											<a class="product-cart__title" href="#">Євровагонка</a>
+											<div class="product-cart__size">Розмір від 20-40х40 до150х800-3000</div>
+										</div>
+									</div>
+									<div class="pagination">
+										<ul>
+											<li class="prev" aria-label="« Назад">
+												<a class="--icon-arrow-prev" href="#"></a>
+											</li>
+											<li class="active">
+												<a href="#">1</a>
+											</li>
+											<li>
+												<a href="#">2</a>
+											</li>
+											<li>
+												<a href="#">3</a>
+											</li>
+											<li class="gap">
+												<span>...</span>
+											</li>
+											<li class="last">
+												<a href="#">7</a>
+											</li>
+											<li class="next" aria-label="Вперед »">
+												<a class="--icon-arrow-next" href="#"></a>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- section banner -->
+				<section class="section banner">
+					<div class="banner__bg">
+						<img src="./assets/img/banner01.png" alt="house">
+					</div>
+					<div class="banner__container">
+						<div class="banner__top section-top">
+							<div class="banner__heading section-heading">Дізнатись вартість</div>
+							<h2 class="banner__title section-title">
+								Консультація та підбір матеріалів
+								<br>
+								під архітектурнийпроєкт
+							</h2>
+							<div class="banner__text section-text">
+								<p>
+									Lorem ipsum dolor sit amet consectetur. Urna pharetra velit a eget tortor est. Quis amet
+						tincidunt gravida adipiscing
+						sed dapibus. Quisque molestie nibh iaculis quis dui. Sed tortor volutpat elementum pellentesque
+						etiam massa.
+								</p>
+								<p></p>
+							</div>
+						</div>
+						<a href="#" class="btn-main">надіслати запит</a>
+						<div class="banner__logo">
+							<p>TIMBERA</p>
+						</div>
+					</div>
+				</section>
+				<div class="utp">
+					<div class="utp__container">
+						<ul class="utp__list">
+							<li class="utp__item">
+								Безкоштовні
+								<br>
+								зразки продукції
+							</li>
+							<li class="utp__item">
+								Вигідна
+								<br>
+								доставка
+							</li>
+							<li class="utp__item">
+								безкоштовний
+								<br>
+								прорахунок
+							</li>
+							<li class="utp__item">
+								Гарантія
+								<br>
+								на матеріали
+							</li>
+							<li class="utp__item">
+								Професійний
+								<br>
+								монтаж
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- section advantages -->
+				<section class="section advantages">
+					<div class="advantages__container">
+						<div class="section-top">
+							<h3 class="section-heading">Поради</h3>
+							<h2 class="section-title">
+								<span class="text-decor">Як обрати</span>
+								термодеревину?
+							</h2>
+						</div>
+						<div class="advantages__row">
+							<div class="advantages__col">
+								<div class="advantages__img">
+									<img src="./assets/img/advantages01.jpg" alt="advantages">
+								</div>
+							</div>
+							<div class="advantages__col">
+								<div class="advantages__text text-formatted">
+									<p>
+										Завжди зберігає форму та габарити, не всихаючи, не набухаючи, не тріскається не жолобиться.
+							Тангенційна та радіальна
+							стабільність після термообробки покращується у 10-15 разів. Навіть відносно м’які у
+							вихідному варіанті породи деревини
+							після обробки стають твердими та стійкими до механічних ушкоджень. Завжди зберігає форму та
+							габарити, не всихаючи, не
+							набухаючи, не тріскається не жолобиться.
+									</p>
+									<h4>Геометрична стабільність</h4>
+									<p>
+										Структура деревини після обробки стає більш яскраво вираженою, а деревина набуває
+							благородного кольору. Натуральний
+							темний відтінок на всю глибину матеріалу. Кольорова гама – залежно від температури обробки –
+							від кольору натурального
+							дерева до темно-коричневого.
+									</p>
+									<p>
+										Термічна обробка деревини здійснюється під дією високих температур у середовищі водяної пари
+							(або іншого безкисневого
+							середовища), без використання будь-яких хімічних складів, – що зберігає її натуральність та
+							екологічну безпеку для
+							здоров’я людини і навколишнього середовища. Термодерево зберігає екологічність на всіх
+							етапах його експлуатації.
+									</p>
+									<p>
+										Завжди зберігає форму та габарити, не всихаючи, не набухаючи, не тріскається не жолобиться.
+							Тангенційна та радіальна
+							стабільність після термообробки покращується у 10-15 разів. Навіть відносно м’які у
+							вихідному варіанті породи деревини
+							після обробки стають твердими та стійкими до механічних ушкоджень. Навіть відносно м’які у
+							вихідному варіанті породи
+							деревини після обробки стають твердими та стійкими до механічних ушкоджень. Навіть відносно
+							м’які у вихідному варіанті
+							породи деревини після обробки стають твердими
+									</p>
+									<p>
+										Завжди зберігає форму та габарити, не всихаючи, не набухаючи, не тріскається не жолобиться.
+							Тангенційна та радіальна
+							стабільність після термообробки покращується у 10-15 разів. Навіть відносно м’які у
+							вихідному варіанті породи деревини
+							після обробки стають твердими та стійкими до механічних ушкоджень. Завжди зберігає форму та
+							габарити, не всихаючи, не
+							набухаючи, не тріскається не жолобиться.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- section banner -->
+				<section class="section banner">
+					<div class="banner__bg">
+						<img src="./assets/img/house01.jpg" alt="house">
+					</div>
+					<div class="banner__container">
+						<div class="banner__top section-top">
+							<div class="banner__heading section-heading">Послуги</div>
+							<h2 class="banner__title section-title">Довірте монтаж професіоналам</h2>
+							<div class="banner__text section-text">
+								<p>
+									Висококваліфіковні бригади — це ключ до успішного втілення проєкту. Наші спеціалісти забезпечать
+						найвищу якість та
+						задоволення від результату.
+								</p>
+								<p>
+									Покладіться на наш досвід та відчуйте впевненість у кожному кроці вашого проєкту!
+								</p>
+								<p></p>
+							</div>
+						</div>
+						<a href="#" class="btn-main">Дізнатись
+				більше</a>
+						<div class="banner__logo">
+							<img src="./assets/img/logo-white.svg" alt="logo">
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__row">
+						<div class="footer__col">
+							<a href="/timbera" class="footer__logo">
+								<img src="./assets/img/logo-footer.svg" alt="logo">
+							</a>
+						</div>
+						<div class="footer__col">
+							<nav class="footer__nav">
+								<ul>
+									<li>
+										<a href="#">Фасадні системи</a>
+									</li>
+									<li>
+										<a href="#">Терасні покриття</a>
+									</li>
+									<li>
+										<a href="#">еко захист</a>
+									</li>
+									<li>
+										<a href="#">Системи монтажу</a>
+									</li>
+									<li>
+										<a href="#">Підшив дахів</a>
+									</li>
+									<li>
+										<a href="#">Монтаж термодерева</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="footer__col">
+							<nav class="footer__nav">
+								<ul>
+									<li>
+										<a href="#">Продукти</a>
+									</li>
+									<li>
+										<a href="#">Про нас</a>
+									</li>
+									<li>
+										<a href="#">Корисні матеріали</a>
+									</li>
+									<li>
+										<a href="#">Контакти</a>
+									</li>
+									<li>
+										<a href="#">Політика конфіденційності</a>
+									</li>
+									<li>
+										<a href="#">Умови використання</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="footer__col">
+							<div class="footer__phones">
+								<a class="phone" href="tel:+380686688011">+380 (68) 668 80 11</a>
+								<a class="phone" href="tel:+380992800238">+380 (99) 280 02 38</a>
+							</div>
+							<div class="footer__social social">
+								<a class="social__icon --icon-facebook" href="#" aria-label="facebook"></a>
+								<a class="social__icon --icon-tiktok" href="#" aria-label="tiktok"></a>
+								<a class="social__icon --icon-instagram" href="#" aria-label="instagram"></a>
+								<a class="social__icon --icon-telegram" href="#" aria-label="telegram"></a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<div class="footer__copyright">2025. Timberra group</div>
+						<a href="https://fnx.com.ua/ua" target="_blank" class="fenix">
+							Розробка
+				сайту:
+							<img src="./assets/img/fenix-logo.svg" alt="fenix logo">
+						</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

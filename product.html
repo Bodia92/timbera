@@ -1,0 +1,540 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="shortcut icon" href="./assets/img/favicon.ico">
+		<title>Product Page</title>
+		<script type="module" crossorigin="" src="./js/app.min.js?v=1751616189934"></script>
+		<link rel="stylesheet" crossorigin="" href="./css/app.min.css?v=1751616189934">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header data-fls-header="" data-fls-header-scroll="" class="header">
+				<div class="header__container">
+					<a href="/timbera" class="header__logo">
+						<img src="./assets/img/logo.svg" alt="logo">
+					</a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item">
+									<a href="#" class="menu__link arrow-down">Каталог</a>
+									<ul class="submenu">
+										<li class="submenu__item">
+											<a href="product.html" class="submenu__link">Категорія 1</a>
+										</li>
+										<li class="submenu__item">
+											<a href="#" class="submenu__link">Категорія 2</a>
+										</li>
+										<li class="submenu__item">
+											<a href="#" class="submenu__link">Категорія 3</a>
+										</li>
+										<li class="submenu__item">
+											<a href="#" class="submenu__link">Категорія 4</a>
+										</li>
+									</ul>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Про нас</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Корисні матеріали</a>
+								</li>
+								<li class="menu__item">
+									<a href="#" class="menu__link">Контакти</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__phones phones">
+						<a href="tel:+380686688011" class="phones__main arrow-down">
+							<span class="icon --icon-phone"></span>
+							+380 (68) 668 80 11
+						</a>
+						<div class="phones__dropdown">
+							<a class="phone" href="tel:+380686688011">+380 (68) 668 80 11</a>
+							<a class="phone" href="tel:+380686688012">+380 (68) 668 80 12</a>
+						</div>
+					</div>
+					<div class="header__search search">
+						<button class="search__icon --icon-search" type="button"></button>
+						<div class="search__modal">
+							<form class="search__form" id="search-form" action="#">
+								<input class="search__input js-search-input" type="text" name="term" autocomplete="off" placeholder="Пошук...">
+								<button class="search__btn search__btn--icon-search" type="submit"></button>
+							</form>
+							<div class="search__content">
+								<div class="search__title">Почніть вводити пошуковий запит</div>
+								<div class="search__text">Мінімальна довжина пошукового запиту 3 символи</div>
+								<div class="search__list">
+									<div class="search__item">123</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="header__lang lang">
+						<button class="lang__btn arrow-down" type="button">UA</button>
+						<nav class="lang__nav">
+							<a class="lang__link" href="#">EN</a>
+							<a class="lang__link" href="#">RU</a>
+						</nav>
+					</div>
+					<button type="button" data-fls-menu="" class="menu__icon icon-menu">
+						<span></span>
+					</button>
+				</div>
+			</header>
+			<main class="page page--product">
+				<div class="breadcrumbs">
+					<div class="breadcrumbs__container">
+						<div class="breadcrumbs__nav">
+							<a class="breadcrumbs__link breadcrumbs__link--main" href="/">Timbera</a>
+							<a class="breadcrumbs__link" href="#">Каталог продукції</a>
+							<div class="breadcrumbs__link breadcrumbs__link--last">Рейка декоративна 40х40</div>
+						</div>
+					</div>
+				</div>
+				<section class="section product">
+					<div class="product__container">
+						<div class="product__row">
+							<div class="product__col">
+								<div class="gallery">
+									<div data-fls-slider="" class="gallery__slider swiper">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<div class="gallery__img">
+													<img src="./assets/img/prod01.png" alt="product">
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="gallery__img">
+													<img src="./assets/img/prod02.png" alt="product">
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="gallery__img">
+													<img src="./assets/img/material01.png" alt="product">
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="gallery__img">
+													<img src="./assets/img/product03.png" alt="product">
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="gallery__img">
+													<img src="./assets/img/object02.jpg" alt="product">
+												</div>
+											</div>
+										</div>
+										<button type="button" class="swiper-button-prev"></button>
+										<button type="button" class="swiper-button-next"></button>
+									</div>
+									<div data-fls-slider="" class="gallery__trumbs swiper">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<div class="gallery__img">
+													<img src="./assets/img/prod01.png" alt="product">
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="gallery__img">
+													<img src="./assets/img/prod02.png" alt="product">
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="gallery__img">
+													<img src="./assets/img/material01.png" alt="product">
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="gallery__img">
+													<img src="./assets/img/product03.png" alt="product">
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="gallery__img">
+													<img src="./assets/img/object02.jpg" alt="product">
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="product__col">
+								<div class="product__subtitle">Термоясен</div>
+								<h1 class="product__title section-title">Рейка декоративна 40х40</h1>
+								<div class="product__description">
+									<p>
+										Термососна для фасаду - це екологічно чистий матеріал, виготовлений шляхом обпалювання
+							деревини без доступу повітря. Він
+							має декоративний вигляд і високу стійкість до впливу навколишнього середовища, такого як
+							волога, ультрафіолетове
+							випромінювання і температурні зміни.
+									</p>
+									<p>
+										Термососна для фасаду зазвичай має високу стійкість до вогню і механічних пошкоджень, що
+							робить його ідеальним вибором
+							для використання на вулиці. Крім того, він може мати різноманітний дизайн і колір, що
+							дозволяє вибрати оптимальний
+							варіант під конкретний стиль тераси
+									</p>
+								</div>
+								<div class="product__actions">
+									<div class="product__price price">
+										<div class="price__value">
+											від
+											<span>1000</span>
+											грн
+										</div>
+										<div class="price__unit">за 1 м2</div>
+									</div>
+									<button type="button" class="product__btn btn-accent --icon-arrow-next" data-fls-popup-link="purchase-request">Запит на
+							придбання</button>
+								</div>
+								<div data-fls-spollers="" class="spollers">
+									<details class="spollers__item" data-fls-spollers-open="">
+										<summary class="spollers__title">Характеристики</summary>
+										<div class="spollers__body">
+											<div class="table">
+												<div class="table__item">
+													<span class="table__key">Розмір</span>
+													<span class="table__value">20-40х40-150х800-3000</span>
+												</div>
+												<div class="table__item">
+													<span class="table__key">Клас</span>
+													<span class="table__value">Дошка фасаду</span>
+												</div>
+												<div class="table__item">
+													<span class="table__key">Поверхня</span>
+													<span class="table__value">Дошка фасаду</span>
+												</div>
+												<div class="table__item">
+													<span class="table__key">Дерево</span>
+													<span class="table__value">Сосна</span>
+												</div>
+												<div class="table__item">
+													<span class="table__key">Довжина</span>
+													<span class="table__value">від 800 до 3000</span>
+												</div>
+											</div>
+										</div>
+									</details>
+									<details class="spollers__item">
+										<summary class="spollers__title">Монтаж</summary>
+										<div class="spollers__body">
+											<div class="spollers__text">
+												<p>
+													Найпоширенішим і водночас найнадійнішим є перший спосіб кріплення - на нержавіючі
+										кліпси. Монтаж фасадної термодошки
+										можна здійснювати як на вже утеплений фасад, так і із застосуванням утеплювача.
+										Необхідною умовою є зазор між стіною і
+										фасадною дошкою розміром не менше 4 см. Це необхідно для нормальної циркуляції
+										повітря і можливості виходу вологи.
+												</p>
+											</div>
+											<div class="download">
+												<div class="download__item">
+													<span class="--icon-pdf">Інструкція з монтажу рейки декоративної</span>
+													<a class="btn-download --icon-download" href="#" download="">завантажити</a>
+												</div>
+												<div class="download__item">
+													<span class="--icon-pdf">Instructions for installation of decorative
+											strip</span>
+													<a class="btn-download --icon-download" href="#" download="">завантажити</a>
+												</div>
+											</div>
+										</div>
+									</details>
+									<details class="spollers__item">
+										<summary class="spollers__title">Гарантія</summary>
+										<div class="spollers__body">
+											<div class="spollers__text">
+												<p>
+													Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit iure sequi,
+										eius, unde, culpa sapiente quisquam temporibus a nostrum et blanditiis officia
+										quaerat recusandae quasi repudiandae dolorem earum aut! Eos.
+												</p>
+											</div>
+										</div>
+									</details>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- section banner -->
+				<section class="section banner">
+					<div class="banner__bg">
+						<img src="./assets/img/banner01.png" alt="house">
+					</div>
+					<div class="banner__container">
+						<div class="banner__top section-top">
+							<div class="banner__heading section-heading">Дізнатись вартість</div>
+							<h2 class="banner__title section-title">
+								Консультація та підбір матеріалів
+								<br>
+								під архітектурнийпроєкт
+							</h2>
+							<div class="banner__text section-text">
+								<p>
+									Lorem ipsum dolor sit amet consectetur. Urna pharetra velit a eget tortor est. Quis amet
+						tincidunt gravida adipiscing
+						sed dapibus. Quisque molestie nibh iaculis quis dui. Sed tortor volutpat elementum pellentesque
+						etiam massa.
+								</p>
+								<p></p>
+							</div>
+						</div>
+						<a href="#" class="btn-main">надіслати запит</a>
+						<div class="banner__logo">
+							<p>TIMBERA</p>
+						</div>
+					</div>
+				</section>
+				<div class="utp">
+					<div class="utp__container">
+						<ul class="utp__list">
+							<li class="utp__item">
+								Безкоштовні
+								<br>
+								зразки продукції
+							</li>
+							<li class="utp__item">
+								Вигідна
+								<br>
+								доставка
+							</li>
+							<li class="utp__item">
+								безкоштовний
+								<br>
+								прорахунок
+							</li>
+							<li class="utp__item">
+								Гарантія
+								<br>
+								на матеріали
+							</li>
+							<li class="utp__item">
+								Професійний
+								<br>
+								монтаж
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- section advantages -->
+				<section class="section advantages">
+					<div class="advantages__container">
+						<div class="section-top">
+							<h3 class="section-heading">Поради</h3>
+							<h2 class="section-title">
+								<span class="text-decor">Як обрати</span>
+								термодеревину?
+							</h2>
+						</div>
+						<div class="advantages__row">
+							<div class="advantages__col">
+								<div class="advantages__img">
+									<img src="./assets/img/advantages01.jpg" alt="advantages">
+								</div>
+							</div>
+							<div class="advantages__col">
+								<div class="advantages__text text-formatted">
+									<p>
+										Завжди зберігає форму та габарити, не всихаючи, не набухаючи, не тріскається не жолобиться.
+							Тангенційна та радіальна
+							стабільність після термообробки покращується у 10-15 разів. Навіть відносно м’які у
+							вихідному варіанті породи деревини
+							після обробки стають твердими та стійкими до механічних ушкоджень. Завжди зберігає форму та
+							габарити, не всихаючи, не
+							набухаючи, не тріскається не жолобиться.
+									</p>
+									<h4>Геометрична стабільність</h4>
+									<p>
+										Структура деревини після обробки стає більш яскраво вираженою, а деревина набуває
+							благородного кольору. Натуральний
+							темний відтінок на всю глибину матеріалу. Кольорова гама – залежно від температури обробки –
+							від кольору натурального
+							дерева до темно-коричневого.
+									</p>
+									<p>
+										Термічна обробка деревини здійснюється під дією високих температур у середовищі водяної пари
+							(або іншого безкисневого
+							середовища), без використання будь-яких хімічних складів, – що зберігає її натуральність та
+							екологічну безпеку для
+							здоров’я людини і навколишнього середовища. Термодерево зберігає екологічність на всіх
+							етапах його експлуатації.
+									</p>
+									<p>
+										Завжди зберігає форму та габарити, не всихаючи, не набухаючи, не тріскається не жолобиться.
+							Тангенційна та радіальна
+							стабільність після термообробки покращується у 10-15 разів. Навіть відносно м’які у
+							вихідному варіанті породи деревини
+							після обробки стають твердими та стійкими до механічних ушкоджень. Навіть відносно м’які у
+							вихідному варіанті породи
+							деревини після обробки стають твердими та стійкими до механічних ушкоджень. Навіть відносно
+							м’які у вихідному варіанті
+							породи деревини після обробки стають твердими
+									</p>
+									<p>
+										Завжди зберігає форму та габарити, не всихаючи, не набухаючи, не тріскається не жолобиться.
+							Тангенційна та радіальна
+							стабільність після термообробки покращується у 10-15 разів. Навіть відносно м’які у
+							вихідному варіанті породи деревини
+							після обробки стають твердими та стійкими до механічних ушкоджень. Завжди зберігає форму та
+							габарити, не всихаючи, не
+							набухаючи, не тріскається не жолобиться.
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+				<!-- section banner -->
+				<section class="section banner">
+					<div class="banner__bg">
+						<img src="./assets/img/house01.jpg" alt="house">
+					</div>
+					<div class="banner__container">
+						<div class="banner__top section-top">
+							<div class="banner__heading section-heading">Послуги</div>
+							<h2 class="banner__title section-title">Довірте монтаж професіоналам</h2>
+							<div class="banner__text section-text">
+								<p>
+									Висококваліфіковні бригади — це ключ до успішного втілення проєкту. Наші спеціалісти забезпечать
+						найвищу якість та
+						задоволення від результату.
+								</p>
+								<p>
+									Покладіться на наш досвід та відчуйте впевненість у кожному кроці вашого проєкту!
+								</p>
+								<p></p>
+							</div>
+						</div>
+						<a href="#" class="btn-main">Дізнатись
+				більше</a>
+						<div class="banner__logo">
+							<img src="./assets/img/logo-white.svg" alt="logo">
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer data-fls-footer="" class="footer">
+				<div class="footer__container">
+					<div class="footer__row">
+						<div class="footer__col">
+							<a href="/timbera" class="footer__logo">
+								<img src="./assets/img/logo-footer.svg" alt="logo">
+							</a>
+						</div>
+						<div class="footer__col">
+							<nav class="footer__nav">
+								<ul>
+									<li>
+										<a href="#">Фасадні системи</a>
+									</li>
+									<li>
+										<a href="#">Терасні покриття</a>
+									</li>
+									<li>
+										<a href="#">еко захист</a>
+									</li>
+									<li>
+										<a href="#">Системи монтажу</a>
+									</li>
+									<li>
+										<a href="#">Підшив дахів</a>
+									</li>
+									<li>
+										<a href="#">Монтаж термодерева</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="footer__col">
+							<nav class="footer__nav">
+								<ul>
+									<li>
+										<a href="#">Продукти</a>
+									</li>
+									<li>
+										<a href="#">Про нас</a>
+									</li>
+									<li>
+										<a href="#">Корисні матеріали</a>
+									</li>
+									<li>
+										<a href="#">Контакти</a>
+									</li>
+									<li>
+										<a href="#">Політика конфіденційності</a>
+									</li>
+									<li>
+										<a href="#">Умови використання</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="footer__col">
+							<div class="footer__phones">
+								<a class="phone" href="tel:+380686688011">+380 (68) 668 80 11</a>
+								<a class="phone" href="tel:+380992800238">+380 (99) 280 02 38</a>
+							</div>
+							<div class="footer__social social">
+								<a class="social__icon --icon-facebook" href="#" aria-label="facebook"></a>
+								<a class="social__icon --icon-tiktok" href="#" aria-label="tiktok"></a>
+								<a class="social__icon --icon-instagram" href="#" aria-label="instagram"></a>
+								<a class="social__icon --icon-telegram" href="#" aria-label="telegram"></a>
+							</div>
+						</div>
+					</div>
+					<div class="footer__bottom">
+						<div class="footer__copyright">2025. Timberra group</div>
+						<a href="https://fnx.com.ua/ua" target="_blank" class="fenix">
+							Розробка
+				сайту:
+							<img src="./assets/img/fenix-logo.svg" alt="fenix logo">
+						</a>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<div data-fls-popup="purchase-request" aria-hidden="true" class="popup">
+			<div data-fls-popup-wrapper="" class="popup__wrapper">
+				<div data-fls-popup-body="" class="popup__body">
+					<button data-fls-popup-close="" type="button" class="popup__close" aria-label="popup-close"></button>
+					<div data-fls-popup-content="" class="popup__content">
+						<form action="#" class="popup__form">
+							<h3 class="popup__title">Запит на придбання</h3>
+							<div class="popup__subtitle">Рейка декоративна 40х40</div>
+							<div class="popup__text">Наш менеджер передзвонить вам найближчим часом!</div>
+							<div class="form-group">
+								<label class="label" for="your-name">як вас звуть?</label>
+								<input autocomplete="off" id="your-name" type="text" name="" aria-label="name" placeholder="Прізвище Ім’я" class="popup-input" required>
+							</div>
+							<div class="form-group">
+								<label class="label" for="your-phone">Номер телефону</label>
+								<input autocomplete="off" id="your-phone" type="phone" name="" aria-label="phone" placeholder="+380 73 333 33 33" class="popup-input" required>
+							</div>
+							<div class="popup__actions">
+								<label class="custom-checkbox" for="miscalculation">
+									<input type="checkbox" name="miscalculation" id="miscalculation">
+									<span class="checkbox"></span>
+									<span class="text">Потрібен прорахунок</span>
+								</label>
+								<label class="custom-checkbox" for="installation">
+									<input type="checkbox" name="installation" id="installation">
+									<span class="checkbox"></span>
+									<span class="text">Потрібен монтаж</span>
+								</label>
+							</div>
+							<button class="popup__btn btn-accent --icon-arrow-next" type="submit">Надіслати запит</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
